@@ -50,7 +50,7 @@
 
 .toplinkblock {
   position: relative;
-  top: -96px;
+  top: -89px;
   display: inline-block;
   margin-right: 108px;
   margin-left: 108px;
@@ -92,6 +92,7 @@
 
 .text-block.l {
   right: 22px;
+  display: inline;
 }
 
 .div-block-6 {
@@ -110,11 +111,11 @@
 }
 
 .heading {
-  width: 80%;
+  width: 90%;
   padding: 128px 128px 0px;
   font-family: Fedrasanspro, sans-serif;
   color: #a1dae4;
-  font-size: 44px;
+  font-size: 40px;
   line-height: 56px;
   font-weight: 500;
   letter-spacing: 0.2px;
@@ -127,11 +128,12 @@
 .paragraph {
   position: relative;
   top: 84px;
-  width: 80%;
+  width: 55%;
   padding-top: 128px;
   padding-left: 128px;
   font-family: Fedraserifapro, sans-serif;
   color: #a1dae4;
+  line-height: 22px;
   font-weight: 400;
 }
 
@@ -149,16 +151,20 @@
 
 .heading-2 {
   position: relative;
-  top: -49px;
-  display: inline;
+  display: inline-block;
+  height: 64px;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 0px;
+  float: left;
+  opacity: 1;
   font-family: Fedrasanspro, sans-serif;
   color: #a2dbe4;
-  font-size: 36px;
-  font-weight: 400;
-  text-align: center;
+  font-size: 72px;
+  font-weight: 500;
+  text-align: left;
   letter-spacing: 3px;
+  text-transform: none;
 }
 
 .div-block-9 {
@@ -170,12 +176,14 @@
 
 .div-block-10 {
   height: 500px;
-  padding-right: 64px;
-  padding-left: 64px;
+  margin-top: 24px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .div-block-10.half {
   height: 248px;
+  margin-top: 0px;
 }
 
 .div-block-11 {
@@ -184,7 +192,7 @@
   height: 100%;
   margin-right: 0px;
   margin-left: 0px;
-  background-image: url('../images/studiomate_unselected.png');
+  background-image: url('../images/studiomate_unselected_1.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -193,7 +201,7 @@
 }
 
 .div-block-11:hover {
-  background-image: url('../images/studiomate_unselected_1.png');
+  background-image: url('../images/studiomate_unselected.png');
 }
 
 .div-block-11:active {
@@ -202,17 +210,17 @@
 }
 
 .div-block-11.a {
-  background-image: url('../images/studiomate_unselected.png');
+  background-image: url('../images/studiomate_unselected_1.png');
   background-size: contain;
 }
 
 .div-block-11.a:hover {
   position: relative;
-  background-image: url('../images/studiomate_unselected_1.png');
+  background-image: url('../images/studiomate_unselected.png');
 }
 
 .div-block-11.a:active {
-  background-image: url('../images/studiomate_unselected_1.png');
+  background-image: url('../images/studiomate_unselected.png');
 }
 
 .div-block-11.b {
@@ -248,15 +256,15 @@
 }
 
 .div-block-11.d {
-  background-image: url('../images/magic_unselected.png');
+  background-image: url('../images/magic_unselected_1.png');
 }
 
 .div-block-11.d:hover {
-  background-image: url('../images/magic_unselected_1.png');
+  background-image: url('../images/magic_unselected.png');
 }
 
 .div-block-11.d:active {
-  background-image: url('../images/magic_unselected_1.png');
+  background-image: url('../images/magic_unselected.png');
 }
 
 .div-block-11.e {
@@ -276,15 +284,15 @@
 }
 
 .div-block-11.f {
-  background-image: url('../images/auteur_unselected_1.png');
+  background-image: url('../images/auteur_unselected.png');
 }
 
 .div-block-11.f:hover {
-  background-image: url('../images/auteur_unselected.png');
+  background-image: url('../images/auteur_unselected_1.png');
 }
 
 .div-block-11.f:active {
-  background-image: url('../images/auteur_unselected.png');
+  background-image: url('../images/auteur_unselected_1.png');
 }
 
 .div-block-11.g {
@@ -320,8 +328,10 @@
 .div-block-12 {
   display: block;
   margin-right: auto;
-  margin-bottom: -24px;
+  margin-bottom: auto;
   margin-left: auto;
+  padding-right: 80px;
+  padding-left: 80px;
   text-align: center;
 }
 
@@ -1111,7 +1121,6 @@
   background-image: url('../images/red.png');
   background-position: 0px 100%;
   background-size: 635px;
-  background-blend-mode: color-burn;
   opacity: 0;
 }
 
@@ -1177,6 +1186,112 @@
 
 .div-block-39 {
   height: 100%;
+}
+
+.div-block-40 {
+  display: inline-block;
+  width: 24%;
+  height: 100px;
+  margin-left: 16px;
+  float: left;
+}
+
+.div-block-41 {
+  position: relative;
+  top: -70px;
+  display: block;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.tabs-menu-2 {
+  display: inline-block;
+  padding-top: 12px;
+  text-align: right;
+}
+
+.tabs-2 {
+  top: 0px;
+  display: block;
+  text-align: right;
+}
+
+.text-block-11 {
+  position: relative;
+  font-family: 'Fedraserifapro book', sans-serif;
+  color: #a4dbe3;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.text-block-11:hover {
+  color: #fff;
+}
+
+.tab-link-tab-1 {
+  margin-top: 0px;
+  margin-right: 6px;
+  margin-left: 6px;
+  padding-top: 12px;
+  background-color: transparent;
+}
+
+.tab-link-tab-1:hover {
+  color: #fff;
+}
+
+.tab-link-tab-1.w--current {
+  padding-top: 12px;
+  border-radius: 6px;
+  background-color: hsla(0, 0%, 100%, .2);
+}
+
+.tab-link-tab-1.w--current:hover {
+  color: #fff;
+}
+
+.tab-pane-tab-1 {
+  margin-top: 24px;
+}
+
+.tab-link-tab-3 {
+  margin-top: 0px;
+  margin-right: 6px;
+  margin-left: 6px;
+  padding-top: 12px;
+  background-color: transparent;
+}
+
+.tab-link-tab-3.w--current {
+  border-radius: 6px;
+  background-color: hsla(0, 0%, 100%, .2);
+}
+
+.tab-link-tab-4 {
+  padding-top: 12px;
+  background-color: hsla(0, 0%, 100%, .2);
+}
+
+.tab-link-tab-4.w--current {
+  margin-top: 0px;
+  margin-right: 6px;
+  margin-left: 6px;
+  border-radius: 6px;
+  background-color: hsla(0, 0%, 100%, .2);
+}
+
+.text-block-grey-label {
+  position: relative;
+  top: 0px;
+  padding-right: 0px;
+  font-family: 'Fedraserifapro book', sans-serif;
+  color: #999;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: right;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
 }
 
 html.w-mod-js *[data-ix="decohover"] {
